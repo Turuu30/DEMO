@@ -6,59 +6,41 @@
 body{
     position: relative;
 }
-header{
-    width: 100%;
-    height: 50vh;
-    background-color: gold;
-}
+/* UR UNDAG HESEG */
 .urBigContainer{
     position: relative;
     width: 100%;
     height: 100vh;
+    border: 1px solid black;
     display:flex;
     justify-content: center;
     align-items: center;
-    background-image: url(https://vemaps.com/uploads/img/mn-02.png);
-    background-position: 70% 30%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-attachment: fixed;
-    /* background-color: yellow; */
 }
 .urSmallcontainer
 {
     width: 80%;
     height: 80%;
-    background-color: aqua;
-    overflow: hidden;
-       /* border: 1px solid black;
-     background-image: url(https://vemaps.com/uploads/img/mn-02.png);
+    background-image: url(https://vemaps.com/uploads/img/mn-02.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain; */
-}
-.urSmallcontainer img {
-    width: 100%;
+    background-size: contain;
+    position: relative;
 }
 .ur1{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    z-index: 20;
-    width: 20px;
-    height: 20px;
-    background-color: brown;
-}
-.urniiur{
-    position: absolute;
-    top: 40%;
-    left: 30%;
     width: 15px;
     height: 10px;
     border-radius: 50%;
     background-color: brown;
+    position: relative;
+}
+.ur2{
+    width: 15px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: brown;
+    position: absolute;
+    top:30%;
+    left:25%;
 }
 .ur3{
     width: 15px;
@@ -72,14 +54,14 @@ header{
     border-radius: 50%;
     background-color: brown;
     position: relative;
-    
+
 }.ur5{
     width: 15px;
     height: 10px;
     border-radius: 50%;
     background-color: brown;
     position: relative;
-    
+
 }.ur6{
     width: 15px;
     height: 10px;
@@ -87,25 +69,116 @@ header{
     background-color: brown;
     position: relative;
 }
-.modniiEhlel{
-    width: 10px;
+.ur7{
+    width: 15px;
     height: 10px;
+    border-radius: 50%;
     background-color: brown;
     position: relative;
-    left: 50%;
-    bottom:15%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-.video{
-    width: 80%;
-    height: 80%;
+.ur8{
+    width: 15px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: brown;
+    position: relative;
+
 }
+.ur9{
+    width: 15px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: brown;
+    position: relative;
+}.ur10{
+    width: 15px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: brown;
+    position: relative;
+
+}.ur11{
+    width: 15px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: brown;
+    position: relative;
+
+}.ur12{
+    width: 15px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: brown;
+    position: relative;
+}
+.ur13{
+    width: 15px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: brown;
+    position: relative;
+
+}.ur14{
+    width: 15px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: brown;
+    position: relative;
+
+}.ur15{
+    width: 15px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: brown;
+    position: relative;
+}
+.ur16{
+    width: 15px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: brown;
+    position: relative;
+}.ur17{
+    width: 15px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: brown;
+    position: relative;
+
+}.ur18{
+    width: 15px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: brown;
+    position: relative;
+
+}.ur19{
+    width: 15px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: brown;
+    position: relative;
+}
+.ur20{
+    width: 15px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: brown;
+    position: relative;
+
+}.ur21{
+    width: 15px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: brown;
+    position: relative;
+
+}
+/* UR UNDAG HESEG */
 
 
 
-
+/* URGADAG HESEG */
 
 .urgahheseg{
     position : relative;
@@ -119,24 +192,31 @@ header{
     background: linear-gradient(#a5e5ff , rgb(4, 149, 253));
 }
 .tree{
-    z-index: 6;
+    z-index: 7;
     position: absolute;
     bottom: 12vh;
     width: 30%;
     height: 70%;
 }
 .root{
-    z-index: 8;
+    z-index: 6;
     position: absolute;
-    bottom: 5.5vh;
-    left: 42%;
-    right: 40%;
-    margin: auto;
+    /* bottom: 6vh; */
     width: 18%;
     height: 33%;
+    opacity: 0;
+}
+.mainRoot{
+    height: 30%;
+    width: 20%;
+    z-index: 6;
+    position: absolute;
+    bottom: -5vh;
+    opacity: 0;
 }
 .seed{
-    z-index: 7;
+    opacity: 0;
+    z-index: 6;
     position: absolute;
     bottom: 11vh;
     left: 0;
@@ -178,6 +258,85 @@ header{
     width: 3%;
     height: 6%;
 }
+/* ------------BUTNII HESEG------------ */
+
+#SmallTree{
+    position: absolute;
+    bottom: 17vh;
+    right: 20%;
+}
+#GrassTall{
+    position: absolute;
+    bottom: 16vh;
+    left: 9%;
+}
+#GrassMany{
+    position: absolute;
+    bottom: 16vh;
+    left: 37%;
+}
+#FlowerGrass{
+    position: absolute;
+    bottom: 16vh;
+    right: 37%;
+}
+#smalltree-one{
+    position: absolute;
+    bottom: 16vh;
+    left: 25%;
+}
+#grasstall-one{
+    position: absolute;
+    bottom: 16vh;
+    right: 28%;
+}
+#flowergrass-one{
+    position: absolute;
+    bottom: 17vh;
+    left: -2%;
+}
+#grassmany-one{
+    position: absolute;
+    bottom: 17vh;
+    right: -2%;
+}
+#grassmany-two{
+    position: absolute;
+    bottom: 17vh;
+    left: 2%;
+}
+#flowergrass-two{
+    position: absolute;
+    bottom: 17vh;
+    left: 20%;
+}
+#flowergrass-three{
+    position: absolute;
+    bottom: 17vh;
+    left: 45%;
+}
+#flowergrass-four{
+    position: absolute;
+    bottom: 17vh;
+    right: 10%;
+}
+#grassmany-three{
+    position: absolute;
+    bottom: 17vh;
+    right: 13%;
+}
+#grassmany-four{
+    position: absolute;
+    bottom: 17vh;
+    left: 16%;
+}
+#grasstall-two{
+    position: absolute;
+    bottom: 17vh;
+    right: 2%;
+}
+/* ------------BUTNII HESEG------------ */
+
 #sun{
     width: 23%;
     position: absolute;
@@ -242,7 +401,7 @@ header{
     position: absolute;
     top:-3% ; 
     right: 29%;
-    z-index: 0;
+    z-index: 2;
     animation: animation3 3s linear infinite alternate;
 }
 @keyframes animation3 {
@@ -250,7 +409,7 @@ header{
 }
 #clouds4{
     position: relative;
-    width: 30%;
+    width: 25%;
     height: 25%;
     position: absolute;
     top:0 ; 
@@ -260,16 +419,42 @@ header{
     display: flex;
     animation: animation4 8s ease  infinite alternate;
 }
-#clouds4 img{
-    width: 100%;
-    height: 100%;
-}
 @keyframes animation4 {
     100%  {right: 0; right: 20%;}
 }
+.uul{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+.suuri{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 75%;
+    height: 30%;
+    background-color: #92bad2;
+    border-radius: 100px;
+}
+.suuri::before{
+    content: "";
+    position: absolute;
+    left: 13%;
+    right: 0;
+    bottom: 40%;
+    /* margin: auto;  */
+    width: 33%;
+    height: 150%;
+    background-color: #92bad2;
+    border-radius: 100px;
+    box-shadow: 150px 0 0 36px #92bad2;
+}
 .rain{
     position: absolute;
-    bottom: 0;
     right: 0;
     left: 0;
     margin: auto;
@@ -277,17 +462,29 @@ header{
     justify-content: center;
     align-items:flex-end;
     width: 100%;
-    height: 100%;
+    height: 95%;
+    /* border: 1px solid black; */
 }
 .rain span {
-    z-index: -1;
+    z-index: 0;
     border-radius: 50%;
-    width: 5px;
-    height: 15px;
-    background-color: #3295C7;
+    width: 3px;
+    height: 35px;
+    background-color: #c5e2f7;
     margin: 0 2px;
     animation: animate 5s linear infinite;
-    animation-duration: calc(15s / var(--i));
+    animation-duration: calc(30s / var(--i));
+}
+.back{
+    z-index: 0;
+    position: absolute;
+    top: 80%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width:  73%;
+    height: 70vh;
+    background-image: radial-gradient(farthest-corner at 50% 0%,#92bad2,#c5e2f7 35%,transparent, transparent);
 }
 @keyframes animate {
     0%{
@@ -410,20 +607,424 @@ header{
     background-position: center;
     background-size: 23%;
 }
-.space{
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    background-color: aqua;
+@media  (max-width:4000px) {
+    .nonegrass{
+        display: flex;
+    }
+    .grass img{
+        width: 33.3%;
+    }
+    .grass1 img{
+        width: 25%;
+    }
+    .grass2 img{
+        width: 20%;
+    }
+} 
+@media (max-width:2000px){
+    .uul{
+        z-index: 1;
+        position: relative;
+        width: 100%;
+        height: 100%;
+    
+    }
+    .suuri{
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 75%;
+        height: 30%;
+        background-color: #92bad2;
+        border-radius: 100px;
+    }
+    .suuri::before{
+        content: "";
+        position: absolute;
+        left: 13%;
+        right: 0;
+        bottom: 40%;
+        /* margin: auto;  */
+        width: 33%;
+        height: 120%;
+        background-color: #92bad2;
+        border-radius: 100px;
+        box-shadow: 90px 0 0 30px #92bad2;
+    }
 }
-.turshilt{
-    width: 80%;
-    height: 80vh;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto;
-    background: linear-gradient(  transparent  0%, red 15%);
+@media (max-width:1000px){
+    #sun{
+        width: 40%;
+        position: absolute;
+        top:0 ; 
+        left: -10%;
+        animation: sun1 8s ease-in infinite alternate;
+        z-index: 1;
+    }
+    @keyframes sun1 {
+        100%  {transform: rotate(65deg);}
+        100%  {left: -10%; left: -20%;}
+    }
+    .uul{
+        z-index: 1;
+        position: relative;
+        width: 100%;
+        height: 100%;
+    
+    }
+    .suuri{
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 100%;
+        height: 30%;
+        background-color: #92bad2;
+        border-radius: 100px;
+    }
+    .suuri::before{
+        content: "";
+        position: absolute;
+        left: 13%;
+        right: 0;
+        bottom: 40%;
+        /* margin: auto;  */
+        width: 33%;
+        height: 100%;
+        background-color: #92bad2;
+        border-radius: 100px;
+        box-shadow: 70px 0 0 30px #92bad2;
+    }
+    #clouds{
+        width: 45%;
+        position: absolute;
+        top:3% ; 
+        left: -3%;
+        z-index: 2;
+        animation: animation 4s linear infinite alternate;
+    }
+    @keyframes animation {
+        100%  {left: -3%; left: -10%;}
+    }
+    #clouds1 {
+        width: 35%;
+        position: absolute;
+        top:3% ; 
+        left: 23%;
+        z-index: 1;
+        animation: animation1 2s linear infinite alternate;
+    }
+    #clouds2-one{
+        width: 45%;
+        position: absolute;
+        top:2% ; 
+        left: 2%;
+        transform: rotate(10deg);
+        opacity: 0.7;
+        animation:  animation-one2 4s linear infinite alternate;
+    }
+    @keyframes animation-one2 {
+        100%  {left: 2%; left: 7%;}
+    }
+    #clouds2-two{
+        width: 50%;
+        position: absolute;
+        top:2% ; 
+        right: 1%;
+        transform: rotate(170deg);
+        opacity: 0.7;
+        animation: animation-two2 3s linear infinite alternate;
+    }
+    @keyframes animation-two2 {
+        100%  {right: 1%; right: 5%;}
+    }
+    #clouds3{
+        transform: rotate(-10deg);
+        width: 35%;
+        position: absolute;
+        top:3% ; 
+        right: 3%;
+        z-index: 2;
+        animation: animation32 4s linear infinite alternate;
+    }
+    @keyframes animation32 {
+        100%  {right: 4%; right: 10%;}
+    }
+    #clouds4{
+        width: 35%;
+        position: absolute;
+        top:3% ; 
+        right: 0%;
+        justify-content: center;
+        align-items:center;
+        display: flex;
+        animation: animation4 8s ease-in infinite alternate;
+    }
+    @keyframes animation4 {
+        100%  {right:0%; right: 10%;}
+    }
+    .rain{
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items:flex-end;
+        width: 100%;
+        height: 95%;
+        /* border: 1px solid black; */
+    }
+    .rain span {
+        z-index: 0;
+        border-radius: 50%;
+        width: 3px;
+        height: 35px;
+        background-color: #c5e2f7;
+        margin: 0 2px;
+        animation: animate 5s linear infinite;
+        animation-duration: calc(35s / var(--i));
+    }
+    .chuluu{
+        opacity: 0.5;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 75%;
+        z-index: 10;
+        background-image: url(https://freesvg.org/img/ilmenskie-cave-gr-stone-texture-8.png);
+        background-position: center;
+        background-size: 64%;
+        transform: rotate(180deg);
+    }
 }
+@media  (max-width:500px) {
+    /* body{
+        overflow: hidden;
+    } */
+    .chuluu{
+        opacity: 0.5;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 75%;
+        z-index: 10;
+        background-image: url(https://freesvg.org/img/ilmenskie-cave-gr-stone-texture-8.png);
+        background-position: center;
+        background-size: 75%;
+    }
+    #sun{
+        width: 45%;
+        position: absolute;
+        top:0 ; 
+        left: -20%;
+        animation: sun1 6s ease-in infinite alternate;
+        z-index: 1;
+    }
+    @keyframes sun1 {
+        100%  {transform: rotate(35deg);}
+        100%  {left: -20%; left: -30%;}
+    }
+    #clouds{
+        width: 45%;
+        position: absolute;
+        top:8% ; 
+        left: -3%;
+        z-index: 2;
+        animation: animation 4s linear infinite alternate;
+    }
+    @keyframes animation {
+        100%  {left: -3%; left: -10%;}
+    }
+    #clouds1 {
+        width: 45%;
+        position: absolute;
+        top:3% ; 
+        left: 23%;
+        z-index: 1;
+        animation: animation1 2s linear infinite alternate;
+    }
+    #clouds2-one{
+        width: 45%;
+        position: absolute;
+        top:2% ; 
+        left: 2%;
+        transform: rotate(10deg);
+        opacity: 0.7;
+        animation:  animation-one2 4s linear infinite alternate;
+    }
+    @keyframes animation-one2 {
+        100%  {left: 2%; left: 7%;}
+    }
+    #clouds2-two{
+        width: 45%;
+        position: absolute;
+        top:2% ; 
+        right: 1%;
+        transform: rotate(170deg);
+        opacity: 0.7;
+        animation: animation-two2 3s linear infinite alternate;
+    }
+    @keyframes animation-two2 {
+        100%  {right: 1%; right: 5%;}
+    }
+    #clouds3{
+        transform: rotate(-10deg);
+        width: 40%;
+        position: absolute;
+        top:3% ; 
+        right: 5%;
+        z-index: 2;
+        animation: animation32 4s linear infinite alternate;
+    }
+    @keyframes animation32 {
+        100%  {right: 5%; right: 8%;}
+    }
+    #clouds4{
+        width: 40%;
+        position: absolute;
+        top:2% ; 
+        right: 0;
+        justify-content: center;
+        align-items:center;
+        display: flex;
+        animation: animation4 6s ease-in infinite alternate;
+    }
+    @keyframes animation4 {
+        100%  {right: 0%; right:10%;}
+    }
+    .uul{
+        /* margin-right: -100px; */
+        z-index: 1;
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .suuri{
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 100%;
+        height: 30%;
+        background-color: #92bad2;
+        border-radius: 100px;
+    }
+    .suuri::before{
+        content: "";
+        position: absolute;
+        left: 13%;
+        right: 0;
+        bottom: 40%;
+        /* margin: auto;  */
+        width: 30%;
+        height: 100%;
+        background-color: #92bad2;
+        border-radius: 100px;
+        box-shadow: 50px 0 0 15px #92bad2;
+    }
+    .rain{
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items:flex-end;
+        width: 100%;
+        height: 80%;
+        /* border: 1px solid black; */
+    }
+    .rain span {
+        z-index: 1;
+        border-radius: 50%;
+        width: 1%;
+        height: 15px;
+        background-color: #afc9f7;
+        margin: 0 2px;
+        /* animation: animate 5s linear infinite;
+        animation-duration: calc(20s / var(--i)); */
+    }
+    @keyframes animate {
+        0%{
+            transform: translateY(0);
+        }
+        100%{
+            transform: translateY(80vh) scale(0);
+        }
+    }
+    .back{
+        z-index: 0;
+        position: absolute;
+        top: 80%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width:  73%;
+        height: 70vh;
+        background-image: radial-gradient(farthest-corner at 50% 0%,#92bad2,#c5e2f7 35%,transparent, transparent);
+    }
+    .nonegrass{
+        display: none;
+    }
+    .grass img{
+        width: 100%;
+    }
+    .grass1 img{
+        width: 33.3%;
+    }
+    .grass2 img{
+        width: 50%;
+    }
+    .grass1one{
+        z-index: 5;
+        width: 100%;
+        height: 5%;
+        position: absolute;
+        bottom: 14.13vh;      
+        background: linear-gradient(transparent 50%, rgb(32, 70, 5) 80%, transparent 100%);
+    }
+    .grass2two{
+        z-index: 7;
+        width: 100%;
+        height: 5%;
+        position: absolute;
+        bottom: 12.4vh;   
+        background: linear-gradient(transparent 50%, rgb(27 60 4) 85%, transparent 100%);
+    }
+    #smalltreetwo{
+        display: none;
+    }
+    #grassbigthree{
+        display: none;
+    }
+    #grassbig2two{
+        display: none;
+    }
+    #grassbig{
+        display: none;
+        width: 20%;
+        height: 30%;
+        position: absolute;
+        bottom: 17vh;
+        right: 5%;
+    }
+    .line{
+        width: 25%;
+    }
+    .mainRoot{
+        height: 25%;
+        width: 55%;
+        z-index: 6;
+        position: absolute;
+        top: 80vh;
+        opacity: 0;
+        /* border: 1px solid beige;
+        background-color: #92bad2; */
+    }
+}
+/* URGADAG HESEG */
